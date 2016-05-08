@@ -7,7 +7,7 @@
   .run(function($rootScope, $ionicLoading) {
 
     $rootScope.$on('loading:show', function(event, hideLoading) {
-      if (hideLoading) {
+      if (!hideLoading) {
         $ionicLoading.show({
           template: '<ion-spinner icon="spiral" class="spinner-energized"></ion-spinner>'
         });
