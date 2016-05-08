@@ -6,8 +6,8 @@
 
   .run(function($rootScope, $ionicLoading) {
 
-    $rootScope.$on('loading:show', function(event, args) {
-      if (undefined !== args && !args.hideLoading) {
+    $rootScope.$on('loading:show', function(event, hideLoading) {
+      if (hideLoading) {
         $ionicLoading.show({
           template: '<ion-spinner icon="spiral" class="spinner-energized"></ion-spinner>'
         });
@@ -20,13 +20,12 @@
 
   })
 
-
   .config(['$httpProvider', function ($httpProvider) {
 
     $httpProvider.interceptors.push(['$q', '$rootScope', function ($q, $rootScope) {
       return {
         request: function(config) {
-          $rootScope.$broadcast('loading:show', config.config);
+          $rootScope.$broadcast('loading:show', config.hideLoading);
           return config;
         },
         response: function(response) {
@@ -44,4 +43,3 @@
   }])
 
 })();
-
