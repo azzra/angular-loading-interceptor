@@ -1,0 +1,23 @@
+{
+  "name": "angular-loading-interceptor",
+  "authors": [
+    "tom <t.vitureau@purjus.fr>"
+  ],
+  "description": "Add a $ionicLoading on HTTP requests",
+  "main": "angular-loading-interceptor.js",
+  "keywords": [
+    "angular",
+    "loading",
+    "interceptor"
+  ],
+  "license": "MIT",
+  "homepage": "http://purjus.fr",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "www/lib",
+    "test",
+    "tests"
+  ]
+}
