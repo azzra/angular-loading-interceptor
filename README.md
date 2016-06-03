@@ -1,5 +1,16 @@
 # angular-loading-interceptor
-Add a $ionicLoading on HTTP requests
+
+Add a $ionicLoading on HTTP requests automatically
+
+## Installation
+
+```sh
+bower install --save azzra/angular-loading-interceptor
+```
+
+```js
+angular.module('app', ['angular-loading-interceptor'])
+```
 
 ## Documentation
 
@@ -15,3 +26,4 @@ return $resource(URL,
     }
 );
 ```
+

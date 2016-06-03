@@ -1,0 +1,32 @@
+{
+  "name": "angular-loading-interceptor",
+  "version": "0.0.3",
+  "description": "Add a $ionicLoading on HTTP requests",
+  "main": "index.js",
+  "scripts": {
+    "install": "bower install",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azzra/angular-loading-interceptor.git"
+  },
+  "keywords": [
+    "angularjs",
+    "ionic",
+    "loading",
+    "interceptor"
+  ],
+  "author": "azzra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/azzra/angular-loading-interceptor/issues"
+  },
+  "homepage": "https://github.com/azzra/angular-loading-interceptor#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-ng-annotate": "^2.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.5.3"
+  }
+}
