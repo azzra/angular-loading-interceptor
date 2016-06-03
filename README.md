@@ -1,6 +1,6 @@
 # angular-loading-interceptor
 
-Add a $ionicLoading on HTTP requests
+Add a $ionicLoading on HTTP requests automatically
 
 ## Installation
 
