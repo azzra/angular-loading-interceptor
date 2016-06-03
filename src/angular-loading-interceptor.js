@@ -14,7 +14,7 @@
           }
       });
 
-      $rootScope.$on('loading:hide', function(event, args) {
+      $rootScope.$on('loading:hide', function() {
           $ionicLoading.hide();
       });
 
