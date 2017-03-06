@@ -1,5 +1,11 @@
 # angular-loading-interceptor
 
+> DEPRECATED as it's only compatible with ionic v1
+
+> NO TESTS
+
+---
+
 Add a $ionicLoading on HTTP requests automatically
 
 ## Installation
